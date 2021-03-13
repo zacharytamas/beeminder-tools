@@ -6,6 +6,7 @@ test('it filters correctly', () => {
     { daystamp: '20210301' },
     { daystamp: '20210228' },
   ];
+
   expect(
     [
       ...new Set(
